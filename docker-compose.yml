@@ -21,6 +21,8 @@ services:
       - "5050:5050"
     networks:
       - backend
+    links:
+      - postgres
 
 networks:
   backend:
