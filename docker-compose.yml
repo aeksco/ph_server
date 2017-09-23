@@ -2,7 +2,7 @@ version: "3"
 
 services:
   
-  postres:
+  postgres:
     image: postgres
     container_name: ph_postgres
     ports:
